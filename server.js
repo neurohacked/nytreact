@@ -20,7 +20,7 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 app.use(express.static('./public'));
 
-mongoose.connect('');
+mongoose.connect('mongodb://heroku_0x3crjz8:bghlt73kjpcclo10dtecf5g38n@ds151707.mlab.com:51707/heroku_0x3crjz8');
 // mongoose.connect('mongodb://localhost/nytreact');
 const db = mongoose.connection;
 
